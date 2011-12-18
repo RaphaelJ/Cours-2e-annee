@@ -1,2 +1,0 @@
-SELECT 'Bon travail', USER
-FROM DUAL

@@ -1,7 +1,0 @@
-SQL> @integrite5
--2292 ORA-02292: integrity constraint (JAVAUXRA.REFNUMAUTEURA_ECRITAUTEURS) violated - child record 
-found                                                                                               
-
-PL/SQL procedure successfully completed.
-
-SQL> SPOOL OFF;

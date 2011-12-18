@@ -1,2 +1,0 @@
-java -classpath . -jar TestFenetreDialLogin2.jar
-java -jar TestFenetreDialLogin2.jar

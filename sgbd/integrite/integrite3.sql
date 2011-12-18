@@ -1,3 +1,0 @@
-SET SERVEROUTPUT ON
-EXECUTE GestionBd.AjouterA_Ecrit(100, 10);
-

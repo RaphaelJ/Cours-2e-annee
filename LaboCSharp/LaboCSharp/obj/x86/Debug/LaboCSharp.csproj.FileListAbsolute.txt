@@ -1,5 +1,0 @@
-Z:\Bureau\Ecole\LaboCSharp\LaboCSharp\bin\Debug\LaboCSharp.exe
-Z:\Bureau\Ecole\LaboCSharp\LaboCSharp\bin\Debug\LaboCSharp.pdb
-Z:\Bureau\Ecole\LaboCSharp\LaboCSharp\obj\x86\Debug\ResolveAssemblyReference.cache
-Z:\Bureau\Ecole\LaboCSharp\LaboCSharp\obj\x86\Debug\LaboCSharp.exe
-Z:\Bureau\Ecole\LaboCSharp\LaboCSharp\obj\x86\Debug\LaboCSharp.pdb

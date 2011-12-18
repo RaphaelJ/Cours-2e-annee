@@ -1,2 +1,0 @@
-lpr -Plp tcplib.h
-lpr -Plp tcplib.c

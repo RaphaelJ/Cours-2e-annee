@@ -1,7 +1,0 @@
-interface eth0
-connexion localhost	11254	localhost  11000 
-ip address 111.112.113.254
-interface eth1
-connexion  localhost	12254	localhost  12000 
-ip address 111.117.114.254
-ip route 111.118.115.0 255.255.255.0  eth1  111.117.114.2

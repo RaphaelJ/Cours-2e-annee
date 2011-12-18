@@ -1,7 +1,0 @@
-rm *.O
-rm *.o
-rm *.bak
-rm clientpc
-mv CLIENTPC.C clientpc.c 
-mv MAKEFILE makefile
-

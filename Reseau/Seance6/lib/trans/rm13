@@ -1,5 +1,0 @@
-echo $1
-mv $1 tempo
-../trans/trans tempo $1
-rm tempo
-

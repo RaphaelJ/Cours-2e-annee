@@ -1,6 +1,0 @@
-SQL> @integrite4
--1400 ORA-01400: cannot insert NULL into ("JAVAUXRA"."A_ECRIT"."NUMOUVRAGE")                        
-
-PL/SQL procedure successfully completed.
-
-SQL> SPOOL OFF;
