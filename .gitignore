@@ -1,4 +1,5 @@
 *~
 *.pyc
 *.o
-*kate-swp
+*swp
+*.pdf
