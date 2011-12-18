@@ -1,0 +1,26 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Pong/Pong.cs">
+    <Files>
+      <File FileName="Pong/Utils.cs" Line="11" Column="24" />
+      <File FileName="Pong/Program.cs" Line="9" Column="6" />
+      <File FileName="Pong/PongForm.cs" Line="31" Column="4" />
+      <File FileName="Pong/Pong.cs" Line="40" Column="4" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="Pong" expanded="True">
+            <Node name="References" expanded="True" />
+            <Node name="Pong.cs" selected="True" />
+            <Node name="PongForm.cs" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

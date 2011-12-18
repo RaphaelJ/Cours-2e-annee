@@ -1,0 +1,7 @@
+rm *.O
+rm *.o
+rm *.bak
+rm couches
+mv COUCHES.C couches.c
+mv MAKEFILE makefile
+

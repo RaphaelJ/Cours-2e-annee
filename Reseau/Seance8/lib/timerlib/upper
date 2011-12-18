@@ -1,0 +1,6 @@
+rm *.o
+rm *.bak
+mv TIMERLIB.C timerlib.c
+mv TIMERLIB.H timerlib.h
+mv MAKEFILE makefile
+

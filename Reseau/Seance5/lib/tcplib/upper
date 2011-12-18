@@ -1,0 +1,7 @@
+rm *.O 
+rm *.o
+rm *.bak
+mv TCPLIB.C tcplib.c
+mv TCPLIB.H tcplib.h
+mv MAKEFILE makefile
+

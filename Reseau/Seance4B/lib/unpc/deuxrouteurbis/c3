@@ -1,0 +1,82 @@
+IP du client:127.0.0.1
+IP du serveur:127.0.0.1
+port 14001 
+******************************************
+ip:111.112.116.1
+Masque:255.255.255.0
+Gateway:111.112.116.254
+Gateway:111.112.115.1
+******************************************
+Liaison:EHL -1
+Liaison:EHL 0
+Reseau:Debut
+Transport:debut
+La touche pressée est 0 
+Transport:Fin
+Reseau:Fin
+Liaison:EHL 0
+Reseau:Debut
+Transport:debut
+La touche pressée est 6 
+Transport:Fin
+Reseau:Fin
+Liaison:EHL 0
+Reseau:Debut
+Transport:debut
+La touche pressée est 9 
+Transport:Fin
+Reseau:Fin
+Liaison:EHL 0
+Reseau:Debut
+Transport:debut
+La touche pressée est 3 
+Transport:Fin
+Reseau:Fin
+Liaison:EHL -1
+Liaison:EHL -1
+Liaison:EHL -1
+Liaison:EHL 0
+Reseau:Debut
+Transport:debut
+La touche pressée est 0 
+Transport:Fin
+Reseau:Fin
+Liaison:EHL 0
+Reseau:Debut
+Transport:debut
+La touche pressée est 9 
+Transport:Fin
+Reseau:Fin
+Liaison:EHL 0
+Reseau:Debut
+Transport:debut
+La touche pressée est 0 
+Transport:Fin
+Reseau:Fin
+Liaison:EHL 0
+Reseau:Debut
+Transport:debut
+La touche pressée est 3 
+Transport:Fin
+Reseau:Fin
+Liaison:EHL -1
+Liaison:EHL 0
+Reseau:Debut
+Transport:debut
+La touche pressée est 0 
+Transport:Fin
+Reseau:Fin
+Liaison:EHL 3
+Liaison::572 bytes lus
+Reseau:Debut
+Reseau:111.112.113.1:111.112.116.1: 6  
+Transport:debut
+Application:RECEPTION 11113333:1
+Transport:Fin
+Reseau:Fin
+Liaison:EHL 0
+Reseau:Debut
+Transport:debut
+La touche pressée est 2 
+Transport:Fin
+Reseau:Fin

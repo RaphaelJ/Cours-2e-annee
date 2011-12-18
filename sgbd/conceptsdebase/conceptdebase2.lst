@@ -1,0 +1,8 @@
+SQL> @conceptdebase2
+
+Index created.
+
+
+PL/SQL procedure successfully completed.
+
+SQL> SPOOL OFF;

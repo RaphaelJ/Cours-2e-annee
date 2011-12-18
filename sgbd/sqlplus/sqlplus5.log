@@ -1,0 +1,16 @@
+SQL> @sqlplus5 IN ES;
+  5  ;
+old   3: WHERE ENAME LIKE '%&1%'
+new   3: WHERE ENAME LIKE '%IN%'
+old   4:    OR ENAME LIKE '%&2%'
+new   4:    OR ENAME LIKE '%ES%'
+
+ENAME                                                                           
+------------------------------                                                  
+JONES                                                                           
+MARTIN                                                                          
+KING                                                                            
+JAMES                                                                           
+SQL> SPOLL OFF
+SP2-0042: unknown command "SPOLL OFF" - rest of line ignored.
+SQL> SPOOL OFF

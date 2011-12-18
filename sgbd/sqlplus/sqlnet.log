@@ -1,0 +1,14 @@
+
+
+***********************************************************************
+Fatal NI connect error 12514, connecting to:
+ (DESCRIPTION=(CONNECT_DATA=(SERVICE_NAME=10.59.27.3)(CID=(PROGRAM=sqlplus)(HOST=sunray1v440.tech.hepl.local)(USER=javauxra)))(ADDRESS=(PROTOCOL=TCP)(HOST=10.59.27.3)(PORT=1521)))
+
+  VERSION INFORMATION:
+	TNS for Solaris: Version 10.2.0.4.0 - Production
+	TCP/IP NT Protocol Adapter for Solaris: Version 10.2.0.4.0 - Production
+  Time: 17-SEP-2010 11:05:29
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12564
+    TNS-12564: Message 12564 not found; No message file for product=network, facility=TNS

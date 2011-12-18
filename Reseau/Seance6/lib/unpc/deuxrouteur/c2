@@ -1,0 +1,89 @@
+IP du client:127.0.0.1
+IP du serveur:127.0.0.1
+port 13001 
+Liaison:EHL 0
+Reseau:Debut
+Transport:debut
+La touche pressée est 6 
+Transport:Fin
+Reseau:Fin
+Liaison:EHL 3
+Liaison::572 bytes lus
+Reseau:Debut
+Reseau:111.112.113.1:111.112.115.1: 5  
+Transport:debut
+Transport: Port ou protocole Invalide 
+Transport:Fin
+Reseau:Fin
+Liaison:EHL -1
+Liaison:EHL 3
+Liaison::572 bytes lus
+Reseau:Debut
+Reseau:111.112.113.1:111.112.115.1: 5  
+Transport:debut
+Transport: Port ou protocole Invalide 
+Transport:Fin
+Reseau:Fin
+Liaison:EHL 0
+Reseau:Debut
+Transport:debut
+La touche pressée est 0 
+Transport:Fin
+Reseau:Fin
+Liaison:EHL 0
+Reseau:Debut
+Transport:debut
+La touche pressée est 9 
+Transport:Fin
+Reseau:Fin
+Liaison:EHL 0
+Reseau:Debut
+Transport:debut
+La touche pressée est 3 
+Transport:Fin
+Reseau:Fin
+Liaison:EHL 3
+Liaison::572 bytes lus
+Reseau:Debut
+Reseau:111.112.113.1:111.112.115.1: 6  
+Transport:debut
+terminator:111.112.113.112;client2:
+robocop:111.112.113.115;client2:
+spiderman:111.112.113.116;client2:
+batman:111.112.113.117;client2:
+client1:111.112.113.1;client2:
+client2:111.112.115.1;client2:
+Transport:s:53,d:1101 client2 111.112.115.1
+Transport:Fin
+Reseau:Envoi au Routeur !
+Reseau:message 0:111.112.115.1:111.112.113.1 16
+Reseau:Fin
+Liaison: Numéro 3:spoqpo  vers FF:111.112.115.254 
+Liaison: 572 bytes écrits
+Liaison:EHL 3
+Liaison::572 bytes lus
+Reseau:Debut
+Reseau:111.112.113.1:111.112.115.1: 7  
+Transport:debut
+Application:RECEPTION aaaaaaaaaaaaaaaaaaaaaa:1
+Transport:Fin
+Reseau:Fin
+Liaison:EHL -1
+Liaison:EHL 3
+Liaison::572 bytes lus
+Reseau:Debut
+Reseau:111.112.113.1:111.112.115.1: 8  
+Transport:debut
+terminator:111.112.113.112;client2:
+robocop:111.112.113.115;client2:
+spiderman:111.112.113.116;client2:
+batman:111.112.113.117;client2:
+client1:111.112.113.1;client2:
+client2:111.112.115.1;client2:
+Transport:s:53,d:1101 client2 111.112.115.1
+Transport:Fin
+Reseau:Envoi au Routeur !
+Reseau:message 1:111.112.115.1:111.112.113.1 16
+Reseau:Fin
+Liaison: Numéro 3:spoqpo  vers FF:111.112.115.254 
+Liaison: 572 bytes écrits

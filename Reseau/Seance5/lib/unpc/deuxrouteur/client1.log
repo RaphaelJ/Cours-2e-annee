@@ -1,0 +1,74 @@
+Ligne 1 
+arg4:11254 
+IP du client:127.0.0.1
+IP du serveur:127.0.0.1
+port 11001 
+Ligne 2 
+ip:111.112.113.1
+Ligne 3 
+Masque:255.255.255.0
+Ligne 4 
+Gateway:111.112.113.254
+Ligne 5 
+Ligne 6 
+******************************************
+Liaison:EHL -1
+Liaison:EHL -1
+Liaison:EHL -1
+Liaison:EHL -1
+Liaison:EHL -1
+Liaison:EHL -1
+Liaison:EHL -1
+Liaison:EHL -1
+Liaison:EHL -1
+Liaison:EHL -1
+Liaison:EHL -1
+Liaison:EHL -1
+Liaison:EHL -1
+Liaison:EHL -1
+Liaison:EHL -1
+Liaison:EHL -1
+Liaison:EHL -1
+Liaison:EHL 0
+Reseau:Debut
+Transport:debut
+La touche press� est 0 
+Transport:Fin
+Reseau:Fin
+Liaison:EHL 0
+Reseau:Debut
+Transport:debut
+La touche press� est 8 
+Transport:s:1101,d:53 client2
+Transport:Fin
+Reseau:Envoi au Routeur !
+Reseau:message 0:111.112.113.1:111.112.115.1 16
+Reseau:Fin
+Liaison: Num�o 0:qpospo  vers FF:111.112.113.254 
+Liaison: 572 bytes �rits
+Liaison:EHL 4
+Liaison::572 bytes lus
+Reseau:Debut
+Reseau:111.112.115.1:111.112.113.1: 0  
+Transport:debut
+Transport:Fin
+Reseau:Fin
+Liaison:EHL 0
+Reseau:Debut
+Transport:debut
+La touche press� est 0 
+Transport:Fin
+Reseau:Fin
+Liaison:EHL 0
+Reseau:Debut
+Transport:debut
+La touche press� est 1 
+0,Entree,Nom:client2:client2:
+Transport:s:1100,d:1200 azertyx2
+Transport:Fin
+Reseau:Envoi au Routeur !
+Reseau:message 1:111.112.113.1:111.112.115.1 17
+Reseau:Fin
+Liaison: Num�o 4:qpospo  vers FF:111.112.113.254 
+Liaison: 572 bytes �rits
+Liaison:EHL -1

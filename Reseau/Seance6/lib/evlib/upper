@@ -1,0 +1,7 @@
+rm *.O  
+rm *.o
+rm *.bak
+mv EVLIB.C evlib.c
+mv EVLIB.H evlib.h 
+mv MAKEFILE makefile
+

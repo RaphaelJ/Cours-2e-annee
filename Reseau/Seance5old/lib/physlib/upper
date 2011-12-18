@@ -1,0 +1,7 @@
+rm *.O
+rm *.o
+rm *.bak
+mv PHYSLIB.C physlib.c
+mv  PHYSLIB.H physlib.h 
+mv MAKEFILE makefile
+

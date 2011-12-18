@@ -1,0 +1,10 @@
+SQL> 
+SQL> @integrite1
+-1 ORA-00001: unique constraint (JAVAUXRA.CPNUMAUTEUR) violated                                     
+
+PL/SQL procedure successfully completed.
+
+SP2-0042: unknown command "SQLCODE" - rest of line ignored.
+SQL> SQLCODE
+SP2-0042: unknown command "SQLCODE" - rest of line ignored.
+SQL> SPOOL OFF;

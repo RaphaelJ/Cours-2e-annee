@@ -1,0 +1,8 @@
+Z:\Bureau\Ecole\CSharp\Calculatrice\Calculatrice\bin\Debug\Calculatrice.exe
+Z:\Bureau\Ecole\CSharp\Calculatrice\Calculatrice\bin\Debug\Calculatrice.pdb
+Z:\Bureau\Ecole\CSharp\Calculatrice\Calculatrice\obj\Debug\ResolveAssemblyReference.cache
+Z:\Bureau\Ecole\CSharp\Calculatrice\Calculatrice\obj\Debug\Calculatrice.Form1.resources
+Z:\Bureau\Ecole\CSharp\Calculatrice\Calculatrice\obj\Debug\Calculatrice.Properties.Resources.resources
+Z:\Bureau\Ecole\CSharp\Calculatrice\Calculatrice\obj\Debug\Calculatrice.csproj.GenerateResource.Cache
+Z:\Bureau\Ecole\CSharp\Calculatrice\Calculatrice\obj\Debug\Calculatrice.exe
+Z:\Bureau\Ecole\CSharp\Calculatrice\Calculatrice\obj\Debug\Calculatrice.pdb

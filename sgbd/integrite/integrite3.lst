@@ -1,0 +1,11 @@
+SQL> @integrite3
+SP2-0310: unable to open file "integrite3.sql"
+SQL> @integrite3
+SP2-0310: unable to open file "integrite3.sql"
+SQL> @integrite3
+-2291 ORA-02291: integrity constraint (JAVAUXRA.REFNUMAUTEURA_ECRITAUTEURS) violated - parent key   
+not found                                                                                           
+
+PL/SQL procedure successfully completed.
+
+SQL> SPOOL OFF;

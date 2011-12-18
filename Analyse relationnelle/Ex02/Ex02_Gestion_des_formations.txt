@@ -1,0 +1,84 @@
+FORMATEURS :
+============
+Liste les différents formateurs inscrits à l'association.
+
+Id: Identifiant du formateur (clé primaire) ; 
+Nom: Nom du formateur (non null) ;
+Prénom : Prénom du formateur (non null) ;
+Adresse : Adresse postale du formateur ;
+Téléphone : Téléphone personnel du formateur ;
+StatutFonctionnaire : Indique si le formateur est un fonctionnaire ou non (non null).
+
+ACTIONS :
+=========
+Liste les différentes formations proposée par l'association.
+
+Code: Identifiant de l'action (clé primaire) ;
+Libellé : Nom de la formation, code alphanumérique, par exemple « DESCF » (non null) ;
+Domaine : Domaine de la formation, par exemple « Comptabilité et finances » (non null) ;
+HoraireTotal : Nombre total d'heures pour la formation (non null) ;
+TarifEntreprise : Tarif appliqués pour les participants venant avec leur entreprise
+                  (non null) ;
+TarifEntreprise : Tarif appliqués pour les participants venant individuellement (non null) ;
+DateDébut : Date de la première scéance de la formation (non nulle) ;
+Effectif maximum  : Nombre maximum de participants à la formation, utilisé pour les
+                    formations nécéssitant un matériel particulier (facultatif).
+
+Relation ENCADRER :
+===================
+Relation entre FORMATEURS et ACTIONS.
+
+Nombre d'heures : Nombre d'heures que le formateur va donner pour une formation.
+
+SCEANCES :
+==========
+
+Date : Date de la scéance (clé primaire) ;
+HeureDébut : Heure de début de la scéance (clé primaire) ;
+HeureFin : Heure de fin de la scéance (clé primaire) ;
+Libellé : Thème de la scéance (non null).
+
+Relation REALISENT :
+====================
+Relation entre SCEANCES et ACTIONS.
+
+LYCEES :
+========
+
+Code : identifiant nationnal du lycée (clé primaire) ;
+Nom : nom du lycée (non null) ;
+Adresse : adresse du lycée (non nulle) ;
+Contact : nom de la personne de contact du lycée (no null).
+
+
+Relation SE PRODUIRE :
+======================
+Relation entre SCEANCES et LYCEES.
+
+NIVEAUX :
+=========
+Représente les différents niveaux de rémunérations des formateurs plafonnés par l'état.
+
+Code : identifiant du niveau (clé primaire) ;
+Taux horaire : taux de rénumération plafonné par l'état pour les formateurs (non null .
+
+Relation ENTRE CLASSE :
+=======================
+Relation entre ACTIONS et NIVEAUX.
+
+AUDITEURS :
+===========
+
+Id : identifiant de l'auditeur (clé primaire) ;
+Nom : nom de l'auditeur (non null) ;
+Prénom : prénom de l'auditeur (non null) ;
+Adresse : adresse postale de l'auditeur ;
+Téléphone : téléphone de l'auditeur ;
+Date de naissance : date de naissance de l'auditeur (non nulle).
+
+Relation ETRE INSCRIT :
+=======================
+Relation entre AUDITEURS et ACTIONS.
+Représente les inscriptions des auditeurs aux différentes formations.
+
+Entreprise ou individuel : défini si l'auditeur s'inscrit avec son entreprise ou individuellement.

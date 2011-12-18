@@ -1,0 +1,12 @@
+connexion localhost 12000 localhost 12254
+ip address  111.117.114.1
+netmask	    255.255.255.0
+gateway     111.117.114.254
+dns         111.117.114.1
+ports	1200    1201     TCP
+bind on
+waitreceive
+waitreceive
+waitreceive
+read
+

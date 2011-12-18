@@ -1,0 +1,25 @@
+SQL> SELECT &cols
+  2  FROM DEPT;
+
+    DEPTNO DNAME                                                                
+---------- ------------------------------------------                           
+LOC                                                                             
+---------------------------------------                                         
+        10 ACCOUNTING                                                           
+NEW YORK                                                                        
+                                                                                
+        20 RESEARCH                                                             
+DALLAS                                                                          
+                                                                                
+        30 SALES                                                                
+CHICAGO                                                                         
+                                                                                
+
+    DEPTNO DNAME                                                                
+---------- ------------------------------------------                           
+LOC                                                                             
+---------------------------------------                                         
+        40 OPERATIONS                                                           
+BOSTON                                                                          
+                                                                                
+SQL> SPOOL OFF

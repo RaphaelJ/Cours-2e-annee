@@ -1,0 +1,16 @@
+SQL> SET HEADING OFF FEEDBACK OFF ECHO OFF;
+SQL> 
+SQL> SELECT 'INSERT INTO DEPT VALUES('
+  2         || DEPTNO
+  3         || ', ''' || DNAME || ''''
+  4         || ', ''' || LOC || ''');'
+  5  FROM DEPT;
+
+INSERT INTO DEPT VALUES(10, 'ACCOUNTING', 'NEW YORK');                          
+INSERT INTO DEPT VALUES(20, 'RESEARCH', 'DALLAS');                              
+INSERT INTO DEPT VALUES(30, 'SALES', 'CHICAGO');                                
+INSERT INTO DEPT VALUES(40, 'OPERATIONS', 'BOSTON');                            
+INSERT INTO DEPT VALUES(50, 'Indus et Tele', 'Liège');                          
+INSERT INTO DEPT VALUES(60, 'Biochimie', 'Seraing');                            
+SQL> SET HEADING ON FEEDBACK ON ECHO ON; 
+SQL> SPOOL OFF;

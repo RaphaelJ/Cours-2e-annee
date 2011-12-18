@@ -1,0 +1,21 @@
+SQL> SELECT FLOOR((CURRENT_DATE - TO_DATE('28/10/1955', 'DD/MM/YYYY')) / 365.25) || ' ans'
+  2  FROM DUAL;
+
+FLOOR((CURRENT_DATE -TO_DATE('28/10/1955','DD/MM/YYYY'))/365.25)||'ANS'                    
+--------------------------------------------------------------------------------
+54 ans                                    
+
+
+
+
+SQL> SELECT (CURRENT_DATE - TO_DATE('28/10/1955', 'DD/MM/YYYY')) YEAR TO MONTH
+  2  FROM DUAL;
+
+Page :   1                     Liste des employes                 User: JAVAUXRA
+(CURRENT_DATE-TO_DATE('28/10/1955','DD/MM/YYYY'))YEARTOMONTH
+---------------------------------------------------------------------------
++54-11
+
+
+
+

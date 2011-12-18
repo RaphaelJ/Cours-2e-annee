@@ -1,0 +1,9 @@
+SQL> @conceptdebase3
+
+Table altered.
+
+
+PL/SQL procedure successfully completed.
+
+SQL> SPOOL OFF.
+

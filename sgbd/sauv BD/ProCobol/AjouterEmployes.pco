@@ -1,0 +1,65 @@
+*****************************************************************
+* précompilation
+* procob18 
+*iname=AjouterEmployes.pco mode=ansi
+*format=terminal config=myconfig.cfg
+* Contenu de myconfig.cfg
+*	sqlcheck=semantics	
+*	userid=User/Password@Service
+*****************************************************************
+
+IDENTIFICATION DIVISION.
+PROGRAM-ID. AjouterEmployes.
+ENVIRONMENT DIVISION.
+DATA DIVISION.
+WORKING-STORAGE SECTION.
+01  Suite PIC X.
+    88 fin VALUE HIGH-VALUE.
+           EXEC SQL BEGIN DECLARE SECTION END-EXEC.
+01  RecEmploye.
+    02  Empno          PIC S9(8) BINARY.
+    02  Ename          PIC X(10).
+    02  Job            PIC X(09).
+    02  HireDate       PIC X(10).
+01  MessageErr PIC X(100).
+01  SQLSTATE.
+	02 SqlstateClass PIC XX.
+		88 SuccessOp 	VALUE '00'.
+	02 SqlstateSuite PIC XXX.
+           EXEC SQL END DECLARE SECTION END-EXEC.
+           EXEC SQL INCLUDE SQLCA END-EXEC.
+PROCEDURE DIVISION.
+BeginPgm.
+	  PERFORM TEST AFTER UNTIL fin  
+           DISPLAY "Nr Employé "
+           ACCEPT Empno WITH CONVERSION
+           DISPLAY " Nom "
+           ACCEPT Ename
+           DISPLAY "Date " 
+           ACCEPT HireDate
+           DISPLAY " Job "  
+           ACCEPT Job	
+           MOVE SPACES TO MessageErr
+           DISPLAY 'AVT MAJ'
+* Comment passer une valeur NULL ? voir ci-dessous   
+            EXEC SQL EXECUTE
+               BEGIN
+               IF :Empno = 0 THEN :Empno := NULL; END IF; 
+               IF :Ename = ' ' THEN :Ename := NULL; END IF; 
+               IF :HireDate = ' ' THEN :HireDate := NULL; END IF; 
+               IF :Job = ' ' THEN :Job := NULL; END IF; 
+               -- Dans le Package, Le job n'est pas ajouté
+          SCOTT.GESTIONEMPLOYES.AJOUTER(:Empno,:Ename,:Job,:HireDate);
+              EXCEPTION
+                WHEN OTHERS THEN
+                     :MessageErr := SUBSTR(SQLERRM,1,100);
+               END;
+           END-EXEC
+           IF MessageErr NOT = SPACES THEN 
+               DISPLAY "Erreur message " MessageErr 
+           END-IF
+           DISPLAY "Continuer ?  CTRL/D TO QUIT "
+           ACCEPT Suite AT END MOVE HIGH-VALUE TO suite 
+           END-ACCEPT
+         END-PERFORM  
+        EXIT PROGRAM.
