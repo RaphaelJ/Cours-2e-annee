@@ -1,0 +1,43 @@
+SQL> INSERT INTO DEPT (DEPTNO, DNAME, LOC)
+  2  VALUES (50, 'Indus et Tele', 'Liège');
+
+1 row created.
+
+SQL> INSERT INTO DEPT (DEPTNO, DNAME, LOC)
+  2  VALUES (60, 'Biochimie', 'Seraing');
+
+1 row created.
+
+SQL> SELECT * FROM DEPT;
+
+    DEPTNO Nom du département                                                   
+---------- ------------------------------------------                           
+LOC                                                                             
+---------------------------------------                                         
+        10 ACCOUNTING                                                           
+NEW YORK                                                                        
+                                                                                
+        20 RESEARCH                                                             
+DALLAS                                                                          
+                                                                                
+        30 SALES                                                                
+CHICAGO                                                                         
+                                                                                
+        40 OPERATIONS                                                           
+BOSTON                                                                          
+                                                                                
+        50 Indus et Tele                                                        
+Liège                                                                           
+                                                                                
+
+    DEPTNO Nom du département                                                   
+---------- ------------------------------------------                           
+LOC                                                                             
+---------------------------------------                                         
+        60 Biochimie                                                            
+Seraing                                                                         
+                                                                                
+
+6 rows selected.
+
+SQL> SPOOL OFF;

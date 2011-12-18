@@ -1,0 +1,8 @@
+rm *.o
+rm *.bak
+rm cli
+rm ser
+mv CLI.C cli.c
+mv SER.C ser.c
+mv MAKEFILE makefile
+

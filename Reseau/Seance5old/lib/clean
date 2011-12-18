@@ -1,0 +1,26 @@
+dirs=`ls`
+echo $dirs
+for i in $dirs
+do
+echo $i
+if [ -d "$i" ]
+then
+  echo "directory:" $i
+  cd $i
+  rm *.log
+  subdir=`ls`
+  for j in $subdir
+  do
+    set `file $j`
+    case $2 in
+      
+       COFF|ELF|Elf)
+        echo 	"suppression" $j
+        rm $j 
+        ;;
+    esac
+  done
+  cd .. 
+fi
+done
+

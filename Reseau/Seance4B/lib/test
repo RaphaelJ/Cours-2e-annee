@@ -1,0 +1,95 @@
+open 10.59.4.1
+user vanstapel MotPasse
+binary
+mkdir couches
+cd couches
+
+mkdir timerlib
+cd timerlib
+put .\timerlib\makefile
+put .\timerlib\timerlib.c
+put .\timerlib\timerlib.h
+put .\timerlib\upper
+cd ..
+
+mkdir tcplib
+cd tcplib
+put .\tcplib\tcplib.c
+put .\tcplib\tcplib.h
+put .\tcplib\makefile
+put .\tcplib\upper
+cd ..
+
+mkdir routeur
+cd routeur
+put .\routeur\couches.c
+put .\routeur\makefile
+put .\routeur\upper
+mkdir unrouteur
+cd unrouteur
+put .\routeur\unrouteur\routeur
+cd ..
+mkdir deuxrouteur
+cd  deuxrouteur
+put .\routeur\deuxrouteur\routeur1
+put .\routeur\deuxrouteur\routeur2
+cd ..
+cd ..
+
+mkdir protocol
+cd protocol
+put .\protocol\protocol.h
+cd ..
+
+mkdir physlib
+cd physlib
+put  .\physlib\makefile
+put .\physlib\physlib.c
+put .\physlib\physlib.h
+put .\physlib\upper
+cd ..
+
+mkdir evtmlib
+cd evtmlib
+put .\evtmlib\evtmlib.c
+put .\evtmlib\evtmlib.h
+put .\evtmlib\makefile
+put .\evtmlib\upper
+cd ..
+
+mkdir evlib
+cd evlib
+put .\evlib\evlib.c
+put .\evlib\evlib.h
+put .\evlib\makefile
+put .\evlib\upper
+cd ..
+
+mkdir cphex
+cd cphex
+put .\cphex\cli.c
+put .\cphex\ser.c
+put .\cphex\upper
+put .\cphex\makefile
+cd ..
+
+mkdir couche3
+cd    couche3
+put .\couche3\couches.c
+put .\couche3\makefile
+put .\couche3\upper
+mkdir unrouteur
+cd unrouteur
+put .\couche3\unrouteur\client1
+put .\couche3\unrouteur\client2
+cd ..
+mkdir deuxrouteur
+cd  deuxrouteur
+put .\couche3\deuxrouteur\client1
+put .\couche3\deuxrouteur\client2
+cd ..
+cd ..
+
+close
+bye
+

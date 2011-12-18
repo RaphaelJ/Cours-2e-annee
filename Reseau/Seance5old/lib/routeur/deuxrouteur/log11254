@@ -1,0 +1,12 @@
+Regle 0  Lin 1 Lout: 0 IPS: 111.112.113.1 IPD: 111.112.115.1 Port Source: 1000 Port Destination: 2000 
+Regle 0  Lin 1 Lout: 2 IPS: 111.112.113.1 IPD: 111.112.115.1 Port Source: 1000 Port Destination: 2000 
+Regle 0  Lin 1 Lout: 2 IPS: 111.112.113.1 IPD: 111.112.115.1 Port Source: 1000 Port Destination: 2000 
+Regle 0  Lin 1 Lout: 2 IPS: 111.112.113.1 IPD: 111.112.115.1 Port Source: 1001 Port Destination: 53 
+Regle 0  Lin 1 Lout: 2 IPS: 111.112.113.1 IPD: 111.112.115.1 Port Source: 1001 Port Destination: 53 
+Regle 0  Lin 1 Lout: 2 IPS: 111.112.113.1 IPD: 111.112.115.1 Port Source: 1000 Port Destination: 2000 
+Regle 0  Lin 1 Lout: 2 IPS: 111.112.113.1 IPD: 111.112.115.1 Port Source: 1000 Port Destination: 2000 
+Regle 0  Lin 1 Lout: 2 IPS: 111.112.113.1 IPD: 111.112.115.1 Port Source: 1000 Port Destination: 2000 
+Regle 0  Lin 1 Lout: 2 IPS: 111.112.113.1 IPD: 111.112.115.1 Port Source: 1000 Port Destination: 2000 
+Regle 0  Lin 1 Lout: 2 IPS: 111.112.113.1 IPD: 111.112.115.1 Port Source: 1000 Port Destination: 2000 
+Regle 0  Lin 1 Lout: 2 IPS: 111.112.113.1 IPD: 111.112.115.1 Port Source: 1000 Port Destination: 2000 
+Regle 0  Lin 2 Lout: 1 IPS: 111.112.115.1 IPD: 111.112.113.1 Port Source: 2000 Port Destination: 1000 

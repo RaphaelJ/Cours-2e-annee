@@ -1,0 +1,2 @@
+lpr -Plp timerlib.h
+lpr -Plp timerlib.c

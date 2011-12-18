@@ -1,0 +1,14 @@
+SQL> @conceptdebase1
+
+no rows selected
+
+
+Table altered.
+
+
+no rows selected
+
+
+PL/SQL procedure successfully completed.
+
+SQL> SPOOL OFF;

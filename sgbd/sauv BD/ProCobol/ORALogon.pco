@@ -1,0 +1,73 @@
+*****************************************************************
+* précompilation
+* procob18 iname=ORALogon.pco mode=ansi  format=terminal 
+*****************************************************************
+IDENTIFICATION DIVISION.
+PROGRAM-ID. ORALogon.
+ENVIRONMENT DIVISION.
+DATA DIVISION.
+WORKING-STORAGE SECTION.
+           EXEC SQL BEGIN DECLARE SECTION END-EXEC.
+01  Username         	PIC X(15) VARYING.
+01  Passwd           	PIC X(15) VARYING.
+01  ServiceName		PIC X(15) VARYING.
+01  SQLSTATE PIC X(5).
+01  Sqlstate1 REDEFINES SQLSTATE.
+	02 SqlstateClass PIC XX.
+		88 SuccessOp VALUE '00'.
+	02 SqlstateSuite PIC XXX.
+           EXEC SQL END DECLARE SECTION END-EXEC.
+01  Touche PIC X.
+
+           EXEC SQL INCLUDE SQLCA END-EXEC.
+PROCEDURE DIVISION. 
+Debut.
+         PERFORM LogonAuto 
+	 IF NOT SuccessOp 
+	 	THEN	
+	 	  CALL "ORAError" USING SQLSTATE  
+           	  DISPLAY 'Actionner une touche '
+         	  ACCEPT Touche
+	 	  PERFORM LogonX TEST AFTER UNTIL SuccessOp
+	 END-IF
+	 DISPLAY " " ERASE SCREEN
+         DISPLAY "CONNECTED TO ORACLE AS USER: ", Username-ARR, 
+           	"Service  ", ServiceName-ARR.
+           	DISPLAY " "
+         DISPLAY 'Actionner une touche '
+         ACCEPT Touche
+         EXIT PROGRAM.
+LogonAuto.
+           DISPLAY 'Avant CONNECT '
+           MOVE 'SCOTT' TO Username-ARR
+           MOVE 5 TO Username-LEN
+           MOVE 'TIGER' TO Passwd-ARR
+           MOVE 5 TO Passwd-LEN
+           MOVE 'ATHENA' TO ServiceName-ARR
+           MOVE 6 TO ServiceName-LEN
+           EXEC SQL
+      CONNECT :Username  IDENTIFIED BY :Passwd USING :ServiceName 
+           END-EXEC.
+LogonX.
+	  DISPLAY " Connexion : Username ?   " ERASE SCREEN
+	  ACCEPT Username-ARR 
+	  	  MOVE 0 TO Username-LEN
+	  INSPECT Username-ARR TALLYING Username-LEN 
+	  	FOR CHARACTERS BEFORE SPACES
+	  DISPLAY "Password ?  "
+	  ACCEPT Passwd-ARR WITH NO ECHO
+	  END-ACCEPT
+	  MOVE 0 TO Passwd-LEN
+	  INSPECT Passwd-ARR TALLYING Passwd-LEN
+	  	FOR CHARACTERS BEFORE SPACES
+          DISPLAY "Service ?  "
+	  ACCEPT ServiceName-ARR 
+	  END-ACCEPT
+	  MOVE 0 TO ServiceName-LEN
+	  INSPECT ServiceName-ARR TALLYING ServiceName-LEN
+	  	FOR CHARACTERS BEFORE SPACES
+	   EXEC SQL
+               CONNECT :Username  IDENTIFIED BY :Passwd USING  :ServiceName
+           END-EXEC
+           DISPLAY " "
+           DISPLAY "CONNECTED TO ORACLE AS USER: ", Username-ARR.

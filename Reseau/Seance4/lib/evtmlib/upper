@@ -1,0 +1,6 @@
+rm *.o
+rm *.bak
+mv EVTMLIB.C evtmlib.c
+mv EVTMLIB.H evtmlib.h 
+mv MAKEFILE makefile
+

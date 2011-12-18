@@ -1,0 +1,13 @@
+2003.11.04 14:15 B C:\couches021bn\clean <-- Vanstap /prof/vanstap/couches021bn clean
+2003.11.04 14:15 B C:\couches021bn\test <-- Vanstap /prof/vanstap/couches021bn test
+2003.11.04 14:18 B C:\couches021bn\clean --> 10.59.5.9 /indus/02/g2226/gretry/couches021bn clean
+2003.11.04 14:18 B C:\couches021bn\test --> 10.59.5.9 /indus/02/g2226/gretry/couches021bn test
+2003.11.04 14:18 B C:\couches021bn\WS_FTP.LOG --> 10.59.5.9 /indus/02/g2226/gretry/couches021bn WS_FTP.LOG
+2004.08.13 14:13 B C:\temp\couches2004 050804\clean --> 192.233.54.207 /house/vanstap/couches2004 050804 clean
+2004.08.13 14:13 B C:\temp\couches2004 050804\test --> 192.233.54.207 /house/vanstap/couches2004 050804 test
+2006.09.20 09:12 B E:\Librairies\lib200677\CLEAN --> 10.59.4.5 /prof/vanstap/lib200677 CLEAN
+2006.09.20 09:12 B E:\Librairies\lib200677\TEST --> 10.59.4.5 /prof/vanstap/lib200677 TEST
+2006.09.20 09:12 B E:\Librairies\lib200677\WS_FTP.LOG --> 10.59.4.5 /prof/vanstap/lib200677 WS_FTP.LOG
+2006.09.20 09:35 B E:\librairies\lib200677\clean --> 10.59.4.5 /prof/vanstap/lib200677 clean
+2006.09.20 09:35 B E:\librairies\lib200677\test --> 10.59.4.5 /prof/vanstap/lib200677 test
+2006.09.20 10:46 B E:\librairies\lib200677\ws_ftp.log <-- sun /prof/vanstap/lib200677 ws_ftp.log

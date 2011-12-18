@@ -1,0 +1,3 @@
+lpr -Plp evlib.h
+lpr -Plp evlib.c
+lpr -Plp makefile

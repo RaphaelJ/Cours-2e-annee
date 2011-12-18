@@ -1,0 +1,19 @@
+SQL> @conceptdebase4
+	DROP COLUMN TITRE
+	            *
+ERROR at line 2:
+ORA-00904: "TITRE": invalid identifier 
+
+
+BEGIN ListeAO; END;
+
+      *
+ERROR at line 1:
+ORA-06550: line 1, column 7:
+PLS-00905: object JAVAUXRA.LISTEAO is invalid
+ORA-06550: line 1, column 7:
+PL/SQL: Statement ignored 
+
+
+SQL> SPOOL OFF.
+

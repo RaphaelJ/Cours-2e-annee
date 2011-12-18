@@ -1,0 +1,85 @@
+SQL> SET PAGESIZE 20;
+SQL> SET LINESIZE 80;
+SQL> 
+SQL> TTITLE LEFT 'Page :' FORMAT 999 SQL.PNO CENTER 'Liste des employes' RIGHT 'User: ' SQL.USER SKIP 2;
+SQL> COLUMN EMPNO HEADING 'Nr de l''employe';
+SQL> COLUMN ENAME HEADING 'Nom de l''employe';
+SQL> COLUMN HIREDATE HEADING 'Date d''embauche' FORMAT A20;
+SQL> COLUMN DNAME HEADING 'Nom du departement';
+SQL> 
+SQL> SELECT e.EMPNO, e.ENAME, e.HIREDATE, d.DNAME
+  2  FROM EMP e
+  3  INNER JOIN DEPT d
+  4      ON d.DEPTNO = e.DEPTNO;
+
+Page :   1                     Liste des employes                 User: JAVAUXRA
+Nr de l'employe Nom de l'employe               Date d'embauche
+--------------- ------------------------------ --------------------
+Nom du departement
+------------------------------------------
+           7782 CLARK                          09/06/81
+ACCOUNTING
+
+           7839 KING                           17/11/81
+ACCOUNTING
+
+           7934 MILLER                         23/01/82
+ACCOUNTING
+
+           7566 JONES                          02/04/81
+RESEARCH
+
+           7902 FORD                           03/12/81
+
+Page :   2                     Liste des employes                 User: JAVAUXRA
+Nr de l'employe Nom de l'employe               Date d'embauche
+--------------- ------------------------------ --------------------
+Nom du departement
+------------------------------------------
+RESEARCH
+
+           7876 ADAMS                          12/01/83
+RESEARCH
+
+           7369 SMITH                          17/12/80
+RESEARCH
+
+           7788 SCOTT                          09/12/82
+RESEARCH
+
+           7521 WARD                           22/02/81
+SALES
+
+Page :   3                     Liste des employes                 User: JAVAUXRA
+Nr de l'employe Nom de l'employe               Date d'embauche
+--------------- ------------------------------ --------------------
+Nom du departement
+------------------------------------------
+
+           7844 TURNER                         08/09/81
+SALES
+
+           7499 ALLEN                          20/02/81
+SALES
+
+           7900 JAMES                          03/12/81
+SALES
+
+           7698 BLAKE                          01/05/81
+SALES
+
+
+Page :   4                     Liste des employes                 User: JAVAUXRA
+Nr de l'employe Nom de l'employe               Date d'embauche
+--------------- ------------------------------ --------------------
+Nom du departement
+------------------------------------------
+           7654 MARTIN                         28/09/81
+SALES
+
+
+14 rows selected.
+
+SQL> CLEAR COLUMS;
+SQL> TTITLE OFF;
+SQL> SPOOL sqlplus7

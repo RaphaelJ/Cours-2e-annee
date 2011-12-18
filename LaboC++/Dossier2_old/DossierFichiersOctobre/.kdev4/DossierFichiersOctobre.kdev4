@@ -1,0 +1,12 @@
+[Buildset]
+BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\x00\x00,\x00D\x00o\x00s\x00s\x00i\x00e\x00r\x00F\x00i\x00c\x00h\x00i\x00e\x00r\x00s\x00O\x00c\x00t\x00o\x00b\x00r\x00e)
+
+[CMake]
+BuildDirs[$e]=$HOME/Bureau/Ecole/LaboC++/DossierFichiersOctobre/build
+CMakeDir=/usr/share/cmake/Modules
+CurrentBuildDir=file:///home/rapha/Bureau/Ecole/LaboC++/DossierFichiersOctobre/build
+CurrentInstallDir=
+ProjectRootRelative=./
+
+[MakeBuilder]
+Number Of Jobs=1

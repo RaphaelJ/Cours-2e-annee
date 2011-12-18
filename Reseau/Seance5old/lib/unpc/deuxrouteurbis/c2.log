@@ -1,0 +1,551 @@
+IP du client:127.0.0.1
+IP du serveur:127.0.0.1
+port 13001 
+******************************************
+ip:111.112.115.1
+Masque:255.255.255.0
+Gateway:111.112.115.254
+Gateway:111.112.115.1
+******************************************
+Liaison:EHL 0
+Reseau:Debut
+Transport:debut
+La touche pressée est 4 
+Transport:Fin
+Reseau:Fin
+Liaison:EHL 0
+Reseau:Debut
+Transport:debut
+La touche pressée est 6 
+Transport:Fin
+Reseau:Fin
+Liaison:EHL 3
+Liaison::572 bytes lus
+Reseau:Debut
+Reseau:111.112.113.1:111.112.115.1: 0  
+Transport:debut
+Transport: Port ou protocole Invalide 
+Port Destination  53 
+Port Application  1200 
+Port Requete DNS  1201 
+Protocole 16 
+Activation DNS 0 
+Transport:Fin
+Reseau:Fin
+Liaison:EHL 0
+Reseau:Debut
+Transport:debut
+La touche pressée est 9 
+Transport:Fin
+Reseau:Fin
+Liaison:EHL 3
+Liaison::572 bytes lus
+Reseau:Debut
+Reseau:111.112.113.1:111.112.115.1: 1  
+Transport:debut
+terminator:111.112.113.112;client1:
+robocop:111.112.113.115;client1:
+spiderman:111.112.113.116;client1:
+batman:111.112.113.117;client1:
+client1:111.112.113.1;client1:
+Transport:s:53,d:1101 client1 111.112.113.1
+Transport:Fin
+Reseau:Envoi au Routeur !
+Reseau:message 0:111.112.115.1:111.112.113.1 16
+Reseau:Fin
+Liaison: Numéro 3:spoqpo  vers FF:111.112.115.254 
+Liaison: 572 bytes écrits
+Liaison:EHL 3
+Liaison::572 bytes lus
+Reseau:Debut
+Reseau:111.112.113.1:111.112.115.1: 2  
+Transport:debut
+terminator:111.112.113.112;client2:
+robocop:111.112.113.115;client2:
+spiderman:111.112.113.116;client2:
+batman:111.112.113.117;client2:
+client1:111.112.113.1;client2:
+client2:111.112.115.1;client2:
+Transport:s:53,d:1101 client2 111.112.115.1
+Transport:Fin
+Reseau:Envoi au Routeur !
+Reseau:message 1:111.112.115.1:111.112.113.1 16
+Reseau:Fin
+Liaison: Numéro 3:spoqpo  vers FF:111.112.115.254 
+Liaison: 572 bytes écrits
+Liaison:EHL 3
+Liaison::572 bytes lus
+Reseau:Debut
+Reseau:111.112.113.1:111.112.115.1: 3  
+Transport:debut
+terminator:111.112.113.112;client3:
+robocop:111.112.113.115;client3:
+spiderman:111.112.113.116;client3:
+batman:111.112.113.117;client3:
+client1:111.112.113.1;client3:
+client2:111.112.115.1;client3:
+client3:111.112.116.1;client3:
+Transport:s:53,d:1101 client3 111.112.116.1
+Transport:Fin
+Reseau:Envoi au Routeur !
+Reseau:message 2:111.112.115.1:111.112.113.1 16
+Reseau:Fin
+Liaison: Numéro 3:spoqpo  vers FF:111.112.115.254 
+Liaison: 572 bytes écrits
+Liaison:EHL 3
+Liaison::572 bytes lus
+Reseau:Debut
+Reseau:111.112.113.1:111.112.115.1: 5  
+Transport:debut
+Application:RECEPTION 12:1
+Transport:Fin
+Reseau:Fin
+Liaison:EHL 0
+Reseau:Debut
+Transport:debut
+La touche pressée est 1 
+0,Entree,Nom::clien:
+1,Entree,Nom:ÿÿÿÿ:clien:
+2,Entree,Nom::clien:
+3,Entree,Nom::clien:
+4,Entree,Nom::clien:
+5,Entree,Nom::clien:
+6,Entree,Nom::clien:
+7,Entree,Nom::clien:
+8,Entree,Nom::clien:
+9,Entree,Nom::clien:
+10,Entree,Nom::clien:
+11,Entree,Nom::clien:
+12,Entree,Nom::clien:
+13,Entree,Nom::clien:
+14,Entree,Nom::clien:
+15,Entree,Nom::clien:
+16,Entree,Nom::clien:
+17,Entree,Nom::clien:
+18,Entree,Nom::clien:
+19,Entree,Nom::clien:
+20,Entree,Nom::clien:
+21,Entree,Nom::clien:
+22,Entree,Nom::clien:
+23,Entree,Nom::clien:
+24,Entree,Nom::clien:
+25,Entree,Nom::clien:
+26,Entree,Nom::clien:
+27,Entree,Nom::clien:
+28,Entree,Nom::clien:
+29,Entree,Nom::clien:
+30,Entree,Nom::clien:
+31,Entree,Nom::clien:
+32,Entree,Nom::clien:
+33,Entree,Nom::clien:
+34,Entree,Nom::clien:
+35,Entree,Nom::clien:
+36,Entree,Nom::clien:
+37,Entree,Nom::clien:
+38,Entree,Nom::clien:
+39,Entree,Nom::clien:
+40,Entree,Nom::clien:
+41,Entree,Nom::clien:
+42,Entree,Nom::clien:
+43,Entree,Nom::clien:
+44,Entree,Nom::clien:
+45,Entree,Nom::clien:
+46,Entree,Nom::clien:
+47,Entree,Nom::clien:
+48,Entree,Nom::clien:
+49,Entree,Nom::clien:
+50,Entree,Nom::clien:
+51,Entree,Nom::clien:
+52,Entree,Nom::clien:
+53,Entree,Nom::clien:
+54,Entree,Nom::clien:
+55,Entree,Nom::clien:
+56,Entree,Nom::clien:
+57,Entree,Nom::clien:
+58,Entree,Nom::clien:
+59,Entree,Nom::clien:
+60,Entree,Nom::clien:
+61,Entree,Nom::clien:
+62,Entree,Nom::clien:
+63,Entree,Nom::clien:
+64,Entree,Nom::clien:
+65,Entree,Nom::clien:
+66,Entree,Nom::clien:
+67,Entree,Nom::clien:
+68,Entree,Nom::clien:
+69,Entree,Nom::clien:
+70,Entree,Nom::clien:
+71,Entree,Nom::clien:
+72,Entree,Nom::clien:
+73,Entree,Nom::clien:
+74,Entree,Nom::clien:
+75,Entree,Nom::clien:
+76,Entree,Nom::clien:
+77,Entree,Nom::clien:
+78,Entree,Nom::clien:
+79,Entree,Nom::clien:
+80,Entree,Nom::clien:
+81,Entree,Nom::clien:
+82,Entree,Nom::clien:
+83,Entree,Nom::clien:
+84,Entree,Nom::clien:
+85,Entree,Nom::clien:
+86,Entree,Nom::clien:
+87,Entree,Nom::clien:
+88,Entree,Nom::clien:
+89,Entree,Nom::clien:
+90,Entree,Nom::clien:
+91,Entree,Nom::clien:
+92,Entree,Nom::clien:
+93,Entree,Nom::clien:
+94,Entree,Nom::clien:
+95,Entree,Nom::clien:
+96,Entree,Nom::clien:
+97,Entree,Nom::clien:
+98,Entree,Nom::clien:
+99,Entree,Nom::clien:
+Transport:Fin
+Reseau:Fin
+Liaison:EHL 0
+Reseau:Debut
+Transport:debut
+La touche pressée est 1 
+0,Entree,Nom::client1:
+1,Entree,Nom:ÿÿÿÿ:client1:
+2,Entree,Nom::client1:
+3,Entree,Nom::client1:
+4,Entree,Nom::client1:
+5,Entree,Nom::client1:
+6,Entree,Nom::client1:
+7,Entree,Nom::client1:
+8,Entree,Nom::client1:
+9,Entree,Nom::client1:
+10,Entree,Nom::client1:
+11,Entree,Nom::client1:
+12,Entree,Nom::client1:
+13,Entree,Nom::client1:
+14,Entree,Nom::client1:
+15,Entree,Nom::client1:
+16,Entree,Nom::client1:
+17,Entree,Nom::client1:
+18,Entree,Nom::client1:
+19,Entree,Nom::client1:
+20,Entree,Nom::client1:
+21,Entree,Nom::client1:
+22,Entree,Nom::client1:
+23,Entree,Nom::client1:
+24,Entree,Nom::client1:
+25,Entree,Nom::client1:
+26,Entree,Nom::client1:
+27,Entree,Nom::client1:
+28,Entree,Nom::client1:
+29,Entree,Nom::client1:
+30,Entree,Nom::client1:
+31,Entree,Nom::client1:
+32,Entree,Nom::client1:
+33,Entree,Nom::client1:
+34,Entree,Nom::client1:
+35,Entree,Nom::client1:
+36,Entree,Nom::client1:
+37,Entree,Nom::client1:
+38,Entree,Nom::client1:
+39,Entree,Nom::client1:
+40,Entree,Nom::client1:
+41,Entree,Nom::client1:
+42,Entree,Nom::client1:
+43,Entree,Nom::client1:
+44,Entree,Nom::client1:
+45,Entree,Nom::client1:
+46,Entree,Nom::client1:
+47,Entree,Nom::client1:
+48,Entree,Nom::client1:
+49,Entree,Nom::client1:
+50,Entree,Nom::client1:
+51,Entree,Nom::client1:
+52,Entree,Nom::client1:
+53,Entree,Nom::client1:
+54,Entree,Nom::client1:
+55,Entree,Nom::client1:
+56,Entree,Nom::client1:
+57,Entree,Nom::client1:
+58,Entree,Nom::client1:
+59,Entree,Nom::client1:
+60,Entree,Nom::client1:
+61,Entree,Nom::client1:
+62,Entree,Nom::client1:
+63,Entree,Nom::client1:
+64,Entree,Nom::client1:
+65,Entree,Nom::client1:
+66,Entree,Nom::client1:
+67,Entree,Nom::client1:
+68,Entree,Nom::client1:
+69,Entree,Nom::client1:
+70,Entree,Nom::client1:
+71,Entree,Nom::client1:
+72,Entree,Nom::client1:
+73,Entree,Nom::client1:
+74,Entree,Nom::client1:
+75,Entree,Nom::client1:
+76,Entree,Nom::client1:
+77,Entree,Nom::client1:
+78,Entree,Nom::client1:
+79,Entree,Nom::client1:
+80,Entree,Nom::client1:
+81,Entree,Nom::client1:
+82,Entree,Nom::client1:
+83,Entree,Nom::client1:
+84,Entree,Nom::client1:
+85,Entree,Nom::client1:
+86,Entree,Nom::client1:
+87,Entree,Nom::client1:
+88,Entree,Nom::client1:
+89,Entree,Nom::client1:
+90,Entree,Nom::client1:
+91,Entree,Nom::client1:
+92,Entree,Nom::client1:
+93,Entree,Nom::client1:
+94,Entree,Nom::client1:
+95,Entree,Nom::client1:
+96,Entree,Nom::client1:
+97,Entree,Nom::client1:
+98,Entree,Nom::client1:
+99,Entree,Nom::client1:
+Transport:Fin
+Reseau:Fin
+Liaison:EHL 0
+Reseau:Debut
+Transport:debut
+La touche pressée est 8 
+Transport:s:1201,d:53 client1
+Transport:Fin
+Reseau:message 3:111.112.115.1:111.112.115.1 16
+Reseau:111.112.115.1:111.112.115.1: 3  
+Transport:debut
+terminator:111.112.113.112;client1:
+robocop:111.112.113.115;client1:
+spiderman:111.112.113.116;client1:
+batman:111.112.113.117;client1:
+client1:111.112.113.1;client1:
+Transport:s:53,d:1201 client1 111.112.113.1
+Transport:Fin
+Reseau:message 4:111.112.115.1:111.112.115.1 16
+Reseau:111.112.115.1:111.112.115.1: 4  
+Transport:debut
+Transport:Fin
+Reseau:Fin
+Liaison:EHL 0
+Reseau:Debut
+Transport:debut
+La touche pressée est 8 
+Transport:s:1201,d:53 client2
+Transport:Fin
+Reseau:message 5:111.112.115.1:111.112.115.1 16
+Reseau:111.112.115.1:111.112.115.1: 5  
+Transport:debut
+terminator:111.112.113.112;client2:
+robocop:111.112.113.115;client2:
+spiderman:111.112.113.116;client2:
+batman:111.112.113.117;client2:
+client1:111.112.113.1;client2:
+client2:111.112.115.1;client2:
+Transport:s:53,d:1201 client2 111.112.115.1
+Transport:Fin
+Reseau:message 6:111.112.115.1:111.112.115.1 16
+Reseau:111.112.115.1:111.112.115.1: 6  
+Transport:debut
+Transport:Fin
+Reseau:Fin
+Liaison:EHL 0
+Reseau:Debut
+Transport:debut
+La touche pressée est 8 
+Transport:s:1201,d:53 client2
+Transport:Fin
+Reseau:message 7:111.112.115.1:111.112.115.1 16
+Reseau:111.112.115.1:111.112.115.1: 7  
+Transport:debut
+terminator:111.112.113.112;client2:
+robocop:111.112.113.115;client2:
+spiderman:111.112.113.116;client2:
+batman:111.112.113.117;client2:
+client1:111.112.113.1;client2:
+client2:111.112.115.1;client2:
+Transport:s:53,d:1201 client2 111.112.115.1
+Transport:Fin
+Reseau:message 8:111.112.115.1:111.112.115.1 16
+Reseau:111.112.115.1:111.112.115.1: 8  
+Transport:debut
+Transport:Fin
+Reseau:Fin
+Liaison:EHL 0
+Reseau:Debut
+Transport:debut
+La touche pressée est 8 
+Transport:s:1201,d:53 client3
+Transport:Fin
+Reseau:message 9:111.112.115.1:111.112.115.1 16
+Reseau:111.112.115.1:111.112.115.1: 9  
+Transport:debut
+terminator:111.112.113.112;client3:
+robocop:111.112.113.115;client3:
+spiderman:111.112.113.116;client3:
+batman:111.112.113.117;client3:
+client1:111.112.113.1;client3:
+client2:111.112.115.1;client3:
+client3:111.112.116.1;client3:
+Transport:s:53,d:1201 client3 111.112.116.1
+Transport:Fin
+Reseau:message 10:111.112.115.1:111.112.115.1 16
+Reseau:111.112.115.1:111.112.115.1: 10  
+Transport:debut
+Transport:Fin
+Reseau:Fin
+Liaison:EHL 0
+Reseau:Debut
+Transport:debut
+La touche pressée est 1 
+0,Entree,Nom:client1:client1:
+Transport:s:1200,d:1100 21
+Transport:Fin
+Reseau:Envoi au Routeur !
+Reseau:message 11:111.112.115.1:111.112.113.1 17
+Reseau:Fin
+Liaison: Numéro 3:spoqpo  vers FF:111.112.115.254 
+Liaison: 572 bytes écrits
+Liaison:EHL 0
+Reseau:Debut
+Transport:debut
+La touche pressée est 1 
+0,Entree,Nom:client1:client2:
+1,Entree,Nom:client2:client2:
+Transport:s:1200,d:1200 22
+Transport:Fin
+Reseau:message 12:111.112.115.1:111.112.115.1 17
+Reseau:111.112.115.1:111.112.115.1: 12  
+Transport:debut
+Application:RECEPTION 22:2
+Transport:Fin
+Reseau:Fin
+Liaison:EHL 0
+Reseau:Debut
+Transport:debut
+La touche pressée est 1 
+0,Entree,Nom:client1:client3:
+1,Entree,Nom:client2:client3:
+2,Entree,Nom:client3:client3:
+Transport:s:1200,d:1300 23
+Transport:Fin
+Reseau:Envoi au Routeur !
+Reseau:message 13:111.112.115.1:111.112.116.1 17
+Reseau:Fin
+Liaison: Numéro 3:spotpo  vers FF:111.112.115.254 
+Liaison: 572 bytes écrits
+Liaison:EHL 0
+Reseau:Debut
+Transport:debut
+La touche pressée est 8 
+Transport:s:1201,d:53 client1
+Transport:Fin
+Reseau:message 14:111.112.115.1:111.112.115.1 16
+Reseau:111.112.115.1:111.112.115.1: 14  
+Transport:debut
+terminator:111.112.113.112;client1:
+robocop:111.112.113.115;client1:
+spiderman:111.112.113.116;client1:
+batman:111.112.113.117;client1:
+client1:111.112.113.1;client1:
+Transport:s:53,d:1201 client1 111.112.113.1
+Transport:Fin
+Reseau:message 15:111.112.115.1:111.112.115.1 16
+Reseau:111.112.115.1:111.112.115.1: 15  
+Transport:debut
+Transport:Fin
+Reseau:Fin
+Liaison:EHL 3
+Liaison::572 bytes lus
+Reseau:Debut
+Reseau:111.112.116.1:111.112.115.1: 0  
+Transport:debut
+terminator:111.112.113.112;client1:
+robocop:111.112.113.115;client1:
+spiderman:111.112.113.116;client1:
+batman:111.112.113.117;client1:
+client1:111.112.113.1;client1:
+Transport:s:53,d:1301 client1 111.112.113.1
+Transport:Fin
+Reseau:Envoi au Routeur !
+Reseau:message 16:111.112.115.1:111.112.116.1 16
+Reseau:Fin
+Liaison: Numéro 3:spotpo  vers FF:111.112.115.254 
+Liaison: 572 bytes écrits
+Liaison:EHL 3
+Liaison::572 bytes lus
+Reseau:Debut
+Reseau:111.112.116.1:111.112.115.1: 1  
+Transport:debut
+terminator:111.112.113.112;client2:
+robocop:111.112.113.115;client2:
+spiderman:111.112.113.116;client2:
+batman:111.112.113.117;client2:
+client1:111.112.113.1;client2:
+client2:111.112.115.1;client2:
+Transport:s:53,d:1301 client2 111.112.115.1
+Transport:Fin
+Reseau:Envoi au Routeur !
+Reseau:message 17:111.112.115.1:111.112.116.1 16
+Reseau:Fin
+Liaison: Numéro 3:spotpo  vers FF:111.112.115.254 
+Liaison: 572 bytes écrits
+Liaison:EHL 3
+Liaison::572 bytes lus
+Reseau:Debut
+Reseau:111.112.116.1:111.112.115.1: 2  
+Transport:debut
+terminator:111.112.113.112;client3:
+robocop:111.112.113.115;client3:
+spiderman:111.112.113.116;client3:
+batman:111.112.113.117;client3:
+client1:111.112.113.1;client3:
+client2:111.112.115.1;client3:
+client3:111.112.116.1;client3:
+Transport:s:53,d:1301 client3 111.112.116.1
+Transport:Fin
+Reseau:Envoi au Routeur !
+Reseau:message 18:111.112.115.1:111.112.116.1 16
+Reseau:Fin
+Liaison: Numéro 3:spotpo  vers FF:111.112.115.254 
+Liaison: 572 bytes écrits
+Liaison:EHL 3
+Liaison::572 bytes lus
+Reseau:Debut
+Reseau:111.112.116.1:111.112.115.1: 4  
+Transport:debut
+Application:RECEPTION 32:3
+Transport:Fin
+Reseau:Fin
+Liaison:EHL -1
+Liaison:EHL -1
+Liaison:EHL -1
+Liaison:EHL -1
+Liaison:EHL 0
+Reseau:Debut
+Transport:debut
+La touche pressée est 2 
+Transport:Fin
+Reseau:Fin
+Liaison:EHL 0
+Reseau:Debut
+Transport:debut
+La touche pressée est 2 
+Transport:Fin
+Reseau:Fin
+Liaison:EHL 0
+Reseau:Debut
+Transport:debut
+La touche pressée est 2 
+Transport:Fin
+Reseau:Fin
+Liaison:EHL 0
+Reseau:Debut
+Transport:debut
+La touche pressée est 10 

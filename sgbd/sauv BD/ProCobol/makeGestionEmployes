@@ -1,0 +1,61 @@
+# makefile COBOL
+# Ch.Thiry
+
+ALL:	GestionEmployes	
+
+GestionEmployes:	GestionEmployes.cob ORALogon.o ORALogoff.o ORAError.o MenuEmployes.o RechercherEmployes.o AjouterEmployes.o ListerEmployes.o	
+	make -f myproc.mk build EXE=GestionEmployes\
+	COBS="GestionEmployes.cob ORALogon.o ORALogoff.o ORAError.o MenuEmployes.o RechercherEmployes.o AjouterEmployes.o ListerEmployes.o"
+
+ListerEmployes.o:	ListerEmployes.cob
+	echo Creation Lister.o	
+	cobol -c ListerEmployes.cob
+	
+ListerEmployes.cob:	ListerEmployes.pco
+	echo Precompilation de ListerEmployes	
+	procob18 iname=ListerEmployes.pco  mode=ansi format=terminal config=myconfig.cfg
+
+RechercherEmployes.o:	RechercherEmployes.cob
+	echo Creation RechercherEmployes.o	
+	cobol -c RechercherEmployes.cob
+	
+RechercherEmployes.cob:	RechercherEmployes.pco
+	echo Precompilation de RechercherEmployes	
+	procob18 iname=RechercherEmployes.pco  mode=ansi format=terminal config=myconfig.cfg
+
+AjouterEmployes.o:	AjouterEmployes.cob
+	echo Creation AjouterEmployes.o	
+	cobol -c AjouterEmployes.cob
+	
+AjouterEmployes.cob:	AjouterEmployes.pco
+	echo Precompilation de AjouterEmployes	
+	procob18 iname=AjouterEmployes.pco  mode=ansi format=terminal config=myconfig.cfg
+
+MenuEmployes.o:	MenuEmployes.cob
+	echo Creation de MenuEmployes.o	
+	cobol -c MenuEmployes.cob
+
+ORAError.o:	ORAError.cob
+	echo Creation de ORAError.o	
+	cobol -c ORAError.cob
+
+ORALogoff.o:	ORALogoff.cob
+	echo Creation de ORALogoff.o	
+	cobol -c ORALogoff.cob
+
+ORALogoff.cob:	ORALogoff.pco
+	echo Precompilation de ORALogoff	
+	procob18 iname=ORALogoff.pco  mode=ansi format=terminal
+
+ORALogon.o:	ORALogon.cob
+	echo Creation de ORALogon.o	
+	cobol -c ORALogon.cob
+
+ORALogon.cob:	ORALogon.pco
+	echo Precompilation de ORALogon	
+	procob18 iname=ORALogon.pco  mode=ansi format=terminal
+
+clean:
+	rm -f *.lis *.o GestionEmployes ORALogon.cob ORALogoff.cob AjouterEmployes.cob RechercherEmployes.cob ListerEmployes.cob sqlnet.log
+		
+rebuild:	clean all

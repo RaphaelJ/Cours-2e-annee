@@ -1,0 +1,8 @@
+SELECT COLUMN_NAME Name,
+       CASE
+       	WHEN NULLABLE = 'N' THEN 'NOT NULL'
+       	ELSE ''
+       END "NULL?",
+       DATA_TYPE || '(' || DATA_LENGTH || ')' Type
+FROM USER_TAB_COLUMNS
+WHERE TABLE_NAME = UPPER('&1');

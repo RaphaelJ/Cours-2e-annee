@@ -1,0 +1,3 @@
+lpr -Plp cli.c
+lpr -Plp ser.c
+lpr -Plp makefile
